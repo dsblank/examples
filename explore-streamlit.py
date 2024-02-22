@@ -1,6 +1,4 @@
 import streamlit as st
-import subprocess
-import os
 
 if st.button("Steve"):
     st.name = "Steve"
