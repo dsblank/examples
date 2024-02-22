@@ -1,6 +1,4 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import random
 import subprocess
 import os
 
