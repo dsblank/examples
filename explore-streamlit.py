@@ -10,10 +10,3 @@ if st.button("Alice"):
 if hasattr(st, "name"):
     st.write(st.name)
     
-with open(__file__) as fp:
-    st.code(fp.read())
-
-st.write(os.environ)
-
-output = subprocess.check_output("ps -uxww", shell=True)
-st.write(output.decode().split("\n"))
